@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 // import About from "./components/About";
 import About from "./About";
 import Projects from "./Projects";
@@ -28,23 +28,6 @@ const Nav = () => {
             <a href="#links">links</a>
           </li>
         </ul>
-        {/* <Link activeClass="active" smooth spy to="about">
-          About
-        </Link>
-
-        <Link activeClass="active" smooth spy to="projects">
-          Projects
-        </Link>
-
-        <Link activeClass="active" smooth spy to="skills">
-          Skills
-        </Link>
-        <Link activeClass="active" smooth spy to="contact">
-          Contact
-        </Link>
-        <Link activeClass="active" smooth spy to="links">
-          Links
-        </Link> */}
       </nav>
       <section id="about">
         <About />
