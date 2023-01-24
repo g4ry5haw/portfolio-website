@@ -3,14 +3,10 @@ import imageMe from "./assets/images/headshot.png";
 
 const About = () => {
   return (
-    <div>
-      {/* <div> */}
-      <p>About me</p>
-      {/* </div> */}
-      <div className="about">
-        <img src={imageMe} alt="Gary Shaw" className="headshot" />
-
-        <span>
+    <div className="content">
+      <div className="even-columns">
+        <div class="col">
+          {/* <h2 className="sectionTitle">About</h2> */}
           <p>
             Hi. My name is Gary Shaw
             <br />
@@ -18,7 +14,8 @@ const About = () => {
             <br />
             Feel free to look around 🙂
           </p>
-        </span>
+          <img src={imageMe} alt="Gary Shaw" className="headshot" />
+        </div>
       </div>
     </div>
   );

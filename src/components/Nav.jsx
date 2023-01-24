@@ -10,27 +10,18 @@ import Links from "./Links";
 const Nav = () => {
   return (
     <div>
-      <nav className="Nav">
-        <ul>
-          <li>
-            <a href="#about">about</a>
-          </li>
-          <li>
-            <a href="#projects">projects</a>
-          </li>
-          <li>
-            <a href="#skills">skills</a>
-          </li>
-          <li>
-            <a href="#contact">contact</a>
-          </li>
-          <li>
-            <a href="#links">links</a>
-          </li>
-        </ul>
+      <nav>
+        <a href="#about">about</a>
+        <a href="#projects">projects</a>
+        <a href="#skills">skills</a>
+        <a href="#contact">contact</a>
+        <a href="#links">links</a>
       </nav>
       <section id="about">
-        <About />
+        <article>
+          <h2 className="sectionTitle">About</h2>
+          <About />
+        </article>
       </section>
       <section id="projects">
         <Projects />

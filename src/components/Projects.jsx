@@ -1,47 +1,36 @@
 import React from "react";
 import bufferImage from "./assets/images/buffer-post-generator.png";
-import githubLogo from "./assets/images/github-mark.png";
-import internetLogo from "./assets/images/internet.png";
-// import IconButton from "@mui/material/IconButton";
-// import GitHubIcon from "@mui/icons-material/GitHub";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LanguageIcon from "@mui/icons-material/Language";
 
 const Projects = () => {
   return (
-    <div>
-      <div>
-        <p>Projects</p>
-        <p>This is a sample</p>
-      </div>
-      <div className="projects">
-        <ul className="projects-list">
-          <li>
-            <p>Buffer Post Generator</p>
-            <img
-              src={bufferImage}
-              alt="buffer post generator"
-              className="bufferImage"
-            />
-            <br />
-            <img src={githubLogo} alt="github logo" className="projectLogo" />
-            <img
-              src={internetLogo}
-              alt="internet logo"
-              className="projectLogo"
-            />
-          </li>
-          <li>
-            <p>Barbershop Appointment Booking </p>
-            <img
-              src={bufferImage}
-              alt="buffer post generator"
-              className="bufferImage"
-            />
-            <br />
-            <img src={githubLogo} alt="github logo" className="projectLogo" />
-            <img src={githubLogo} alt="github logo" className="projectLogo" />
-            <img src={githubLogo} alt="github logo" className="projectLogo" />
-          </li>
-        </ul>
+    <div className="content">
+      <h2 className="sectionTitle">Projects</h2>
+      <div className="even-columns">
+        <div className="col">
+          <h5>Buffer Post Generator</h5>
+          <img
+            src={bufferImage}
+            alt="buffer post generator"
+            className="bufferImage"
+          />
+          <br />
+          <GitHubIcon fontSize="large" />
+          <LanguageIcon fontSize="large" />
+        </div>
+        <div className="col">
+          <h5>Barbershop Appointment Booking </h5>
+          <img
+            src={bufferImage}
+            alt="buffer post generator"
+            className="bufferImage"
+          />
+          <br />
+          <GitHubIcon fontSize="large" />
+          <LanguageIcon fontSize="large" />
+        </div>
+        {/* <div className="col"></div> */}
       </div>
     </div>
   );
