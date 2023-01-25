@@ -17,24 +17,22 @@ const Nav = () => {
         <a href="#contact">contact</a>
         <a href="#links">links</a>
       </nav>
-      <section id="about">
-        <article>
-          <h2 className="sectionTitle">About</h2>
-          <About />
-        </article>
+      <section className="section" id="about">
+        <h2 className="sectionTitle">About</h2>
+        <About />
       </section>
-      <section id="projects">
+      <section className="section" id="projects">
         <Projects />
       </section>
-      <section id="skills">
+      <section className="section" id="skills">
         <Skills />
       </section>
-      <section id="contact">
+      <section className="section" id="contact">
         <Contact />
       </section>
-      <footer id="links">
+      <section className="section" id="links">
         <Links />
-      </footer>
+      </section>
     </div>
   );
 };

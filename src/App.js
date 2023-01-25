@@ -6,7 +6,7 @@ import Nav from "./components/Nav";
 // import Contact from "./components/Contact";
 // import Links from "./components/Links";
 // import Header from "./components/Header";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (

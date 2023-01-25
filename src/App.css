@@ -11,7 +11,7 @@
   text-align: center;
   padding : 0 1em;
   max-width: 60rem;
-  width: min(90% 1000px);
+  /* width: min(90% 1000px); */
   /* margin: 0 auto; */
   margin-inline: auto;
   justify-content: center;
@@ -23,19 +23,23 @@
 }
 
 .content {
-  border-top: 0.5px solid grey;
-  margin-top: 2rem;
   min-height: 50vh;
+}
 
+.section {
+  scroll-margin-top: 4rem;
+  margin: auto;
 }
 
 .sectionTitle {
   background-color: #F4EFDC;
+  /* margin-top: 2rem; */
   color: #281A23
 }
 
 p {
   margin: 0;
+  text-align: center;
 }
 
 .even-columns {
@@ -45,6 +49,7 @@ p {
 
 .even-columns > * {
   flex-basis: 100%;
+  /* margin: auto; */
 }
 
 nav {

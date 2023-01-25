@@ -5,8 +5,7 @@ const About = () => {
   return (
     <div className="content">
       <div className="even-columns">
-        <div class="col">
-          {/* <h2 className="sectionTitle">About</h2> */}
+        <div className="col">
           <p>
             Hi. My name is Gary Shaw
             <br />
@@ -14,6 +13,11 @@ const About = () => {
             <br />
             Feel free to look around 🙂
           </p>
+          {/* <p>Hi. My name is Gary Shaw</p>
+          <p>This is my portfolio website</p>
+          <p>Feel free to look around 🙂</p> */}
+        </div>
+        <div className="col">
           <img src={imageMe} alt="Gary Shaw" className="headshot" />
         </div>
       </div>
