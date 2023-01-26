@@ -1,13 +1,14 @@
 import React from "react";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
+import "../App.css";
 
 const Contact = () => {
   return (
     <div className="content">
-      <h2 className="sectionTitle">Contact Details</h2>
+      {/* <h2 className="sectionTitle">Contact Details</h2> */}
       <div className="even-columns">
-        <div class="col">
+        <div className="col">
           <CallIcon /> 07467 945221
           <br />
           <div

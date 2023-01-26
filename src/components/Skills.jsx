@@ -3,9 +3,9 @@ import React from "react";
 const Skills = () => {
   return (
     <div className="content">
-      <h2 className="sectionTitle">Skills</h2>
+      {/* <h2 className="sectionTitle">Skills</h2> */}
       <div className="even-columns">
-        <div class="col">
+        <div className="col">
           <h3>front end</h3>
           <ul className="skillList">
             <li className="skillListItem">React</li>
@@ -14,7 +14,7 @@ const Skills = () => {
             <li className="skillListItem">CSS</li>
           </ul>
         </div>
-        <div class="col">
+        <div className="col">
           <h3>back end</h3>
           <ul className="skillList">
             <li className="skillListItem">node.js</li>
@@ -24,7 +24,7 @@ const Skills = () => {
           </ul>
         </div>
 
-        <div class="col">
+        <div className="col">
           <h3>fundamentals</h3>
           <ul className="skillList">
             <li className="skillListItem">test driven development</li>

@@ -1,11 +1,12 @@
 import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import "../App.css";
 
 const Links = () => {
   return (
     <div className="content">
-      <h2 className="sectionTitle">Links</h2>
+      {/* <h2 className="sectionTitle">Links</h2> */}
       <div className="even-columns">
         <div class="col">
           <div

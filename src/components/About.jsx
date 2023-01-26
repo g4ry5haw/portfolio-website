@@ -1,5 +1,6 @@
 import React from "react";
 import imageMe from "./assets/images/headshot.png";
+import "../App.css";
 
 const About = () => {
   return (
@@ -13,9 +14,6 @@ const About = () => {
             <br />
             Feel free to look around 🙂
           </p>
-          {/* <p>Hi. My name is Gary Shaw</p>
-          <p>This is my portfolio website</p>
-          <p>Feel free to look around 🙂</p> */}
         </div>
         <div className="col">
           <img src={imageMe} alt="Gary Shaw" className="headshot" />

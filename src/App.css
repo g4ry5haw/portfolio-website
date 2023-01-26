@@ -2,7 +2,7 @@
   padding:0px;
   margin:0px;
   box-sizing: border-box;
-  /* border: 0.5px solid grey; */
+  border: 0.2px solid grey;
   list-style-type: none;
   scroll-behavior: smooth;
 }
@@ -23,15 +23,18 @@
 }
 
 .content {
-  min-height: 50vh;
+  min-height: 30vh;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .section {
-  scroll-margin-top: 4rem;
-  margin: auto;
+  /* scroll-margin-top: 4rem; */
+  /* margin: auto; */
 }
 
 .sectionTitle {
+  scroll-margin-top: 2.5rem;
   background-color: #F4EFDC;
   /* margin-top: 2rem; */
   color: #281A23
@@ -45,11 +48,17 @@ p {
 .even-columns {
   display:flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .even-columns > * {
-  flex-basis: 100%;
+  /* max-width: 30vw; */
   /* margin: auto; */
+}
+.col {
+  /* max-width: 300px; */
+  flex: 1 1 250px;
+  margin: auto;
 }
 
 nav {
@@ -59,13 +68,15 @@ nav {
   width: 100%;
   position: sticky;
   top: 0px;
+  /* overflow: hidden; */
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  margin: 0px 20px;
-  font-size: 1.3em;
+  /* margin: 0px 20px; */
+  margin: 10px;
+  font-size: max(2vw, 12px);
 }
 
 nav a:hover {
@@ -115,7 +126,8 @@ footer {
 
 .headshot {
 border-radius: 50%;
-max-width: 20%;
+/* max-width: 20%; */
+width: 20%;
 /* margin: 1rem; */
 }
 
@@ -129,7 +141,7 @@ max-width: 20%;
 
 .projectLogo {
   border-radius: 5%;
-  max-width: 10%;
+  max-width: 0%;
   margin: 0.5rem;
 }
 
