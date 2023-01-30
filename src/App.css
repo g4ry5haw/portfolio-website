@@ -2,7 +2,7 @@
   padding:0px;
   margin:0px;
   box-sizing: border-box;
-  border: 0.2px solid grey;
+  /* border: 0.2px solid grey; */
   list-style-type: none;
   scroll-behavior: smooth;
 }
@@ -23,7 +23,7 @@
 }
 
 .content {
-  min-height: 30vh;
+  min-height: 60vh;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -34,7 +34,7 @@
 }
 
 .sectionTitle {
-  scroll-margin-top: 2.5rem;
+  scroll-margin-top: 3.5rem;
   background-color: #F4EFDC;
   /* margin-top: 2rem; */
   color: #281A23
@@ -52,13 +52,20 @@ p {
 }
 
 .even-columns > * {
-  /* max-width: 30vw; */
+}
+
+.col {
+  flex: 1 1 250px;
   /* margin: auto; */
 }
-.col {
-  /* max-width: 300px; */
-  flex: 1 1 250px;
-  margin: auto;
+
+.col-text-left > * {
+  text-align: left;
+}
+
+.col-box {
+  border: 1px solid #F4EFDC;
+  margin: 5px
 }
 
 nav {
@@ -85,21 +92,24 @@ nav a:hover {
 
 ul {
   width: 100%;
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex; */
+  /* justify-content: flex-end; */
   box-sizing: border-box;
   padding: 0 1rem;
   /* background: #fff; */
 }
 
 li {
-  list-style: none;
-  margin-right: 20px;
+  list-style:circle;
+  margin-left: 20px;
+  padding: 2px;
+  /* text-indent: 1em; */
   font-size: max(2vw, 18px);
-  font-weight: bold;
+  text-align: left;
+  /* font-weight: bold; */
 }
 
-  li a {
+li a {
   text-decoration: none;
   color: #F4EFDC;
 }
@@ -109,14 +119,21 @@ li a:visited {
 
 }
 
+a {
+  text-decoration: underline;
+  color: #F4EFDC;
+}
+
 .skillList {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; */
+  margin-bottom: 10px;
+  
 }
 
 .skillListItem {
-  font-size: clamp(0.5rem, 10vw + 0.1rem, 1.2rem);
+  /* font-size: clamp(0.5rem, 10vw + 0.1rem, 1rem); */
 }
 
 footer {
@@ -125,16 +142,17 @@ footer {
 }
 
 .headshot {
-border-radius: 50%;
-/* max-width: 20%; */
-width: 20%;
-/* margin: 1rem; */
+  border-radius: 50%;
+  /* max-width: 20%; */
+  width: 50%;
+  /* margin: 1rem; */
 }
 
 
-.bufferImage {
+.image-project {
   border-radius: 5%;
-  max-width: 50%;
+  max-width: 60%;
+  max-height: 40%;
   margin: 1rem;
   
 }
@@ -148,4 +166,9 @@ width: 20%;
 .logo {
   max-width: 10%;
   margin: 0.5rem;
+}
+
+.col-title {
+  height: 3rem;
+  
 }
