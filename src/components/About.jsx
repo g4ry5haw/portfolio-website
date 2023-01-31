@@ -5,11 +5,14 @@ import "../App.css";
 const About = () => {
   return (
     <div className="content">
-      <div className="even-columns">
-        <div className="col">
+      <h2 className="sectionTitle" id="about">
+        About
+      </h2>
+      <div className="even-columns-flex">
+        <div className="col-30">
           <img src={imageMe} alt="Gary Shaw" className="headshot" />
         </div>
-        <div className="col">
+        <div className="col-70">
           <div className="col-text-left">
             <p>
               Hi. I'm Gary Shaw.

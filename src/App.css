@@ -2,7 +2,7 @@
   padding:0px;
   margin:0px;
   box-sizing: border-box;
-  /* border: 0.2px solid grey; */
+  border: 0.2px solid grey;
   list-style-type: none;
   scroll-behavior: smooth;
 }
@@ -10,33 +10,22 @@
 .App {
   text-align: center;
   padding : 0 1em;
-  max-width: 60rem;
-  /* width: min(90% 1000px); */
-  /* margin: 0 auto; */
+  max-width: 90vw;
   margin-inline: auto;
   justify-content: center;
   color: #F4EFDC;
   background-color: #281A23;
-  /* color:red; */
-  
-  /* border: 2px solid red; */
 }
 
 .content {
-  min-height: 60vh;
+  min-height: 50vh;
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-.section {
-  /* scroll-margin-top: 4rem; */
-  /* margin: auto; */
-}
-
 .sectionTitle {
-  scroll-margin-top: 3.5rem;
+  scroll-margin-top: 4rem;
   background-color: #F4EFDC;
-  /* margin-top: 2rem; */
   color: #281A23
 }
 
@@ -45,18 +34,47 @@ p {
   text-align: center;
 }
 
-.even-columns {
+.even-columns-flex {
   display:flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  
+
 }
 
-.even-columns > * {
+.even-columns-grid {
+  /* display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around; */
+  display: grid;
+  gap: 5px;
+  /* overflow: hidden; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  /* grid-column-gap: 5px;
+  grid-row-gap: 5px; */
+  /* max-width: 500px; */
+
+}
+
+.col-30 {
+  flex-basis: 30%;
+}
+.col-70 {
+  flex-basis: 70%;
+}
+
+@media (max-width: 800px) {
+  .col-30, .col-70 {
+    flex: 100%;
+  }
 }
 
 .col {
-  flex: 1 1 250px;
-  /* margin: auto; */
+  display: flex;
+  /* flex: 1 1 250px; */
+  margin: auto;
+  width: 100%
 }
 
 .col-text-left > * {
@@ -65,7 +83,15 @@ p {
 
 .col-box {
   border: 1px solid #F4EFDC;
-  margin: 5px
+  margin: 0.5em;
+  padding-top: 1em;
+  min-height: 20em;
+  width: 100%;
+  /* align-self: stretch */
+}
+
+.col-image-project {
+  height : 20em;
 }
 
 nav {
@@ -116,7 +142,7 @@ li a {
 
 li a:visited {
   color: #F4EFDC;
-
+  
 }
 
 a {
@@ -125,10 +151,11 @@ a {
 }
 
 .skillList {
-  /* display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap;
   justify-content: center; */
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  /* width: 100%; */
   
 }
 
@@ -151,9 +178,10 @@ footer {
 
 .image-project {
   border-radius: 5%;
-  max-width: 60%;
-  max-height: 40%;
-  margin: 1rem;
+  /* max-width: 60%; */
+  /* max-height: 40%; */
+  height:100%;
+  /* margin: 1rem; */
   
 }
 

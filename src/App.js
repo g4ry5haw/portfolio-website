@@ -1,5 +1,6 @@
 import "./App.css";
 import Nav from "./components/Nav";
+// import Body from "./components/Body";
 // import About from "./components/About";
 // import Projects from "./components/Projects";
 // import Skills from "./components/Skills";
@@ -11,13 +12,9 @@ import Nav from "./components/Nav";
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
       <Nav />
-      {/* <About />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Links /> */}
+
+      {/* <Footer /> */}
     </div>
   );
 }
