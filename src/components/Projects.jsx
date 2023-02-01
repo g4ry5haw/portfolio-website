@@ -6,7 +6,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LanguageIcon from "@mui/icons-material/Language";
 import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
 
-const Projects2 = () => {
+const Projects = () => {
   return (
     <div className="content">
       <h2 className="sectionTitle" id="projects">
@@ -26,6 +26,7 @@ const Projects2 = () => {
             An app built for browsing, booking and paying for appointments with
             your local barber
           </p>
+          <br />
           <p className="p-project-techstack">
             Front-end is built in React Native & Back-end is built in MongoDB
           </p>
@@ -63,6 +64,7 @@ const Projects2 = () => {
             A simple one-page site built in React to create consistent social
             media posts that can be posted across channels using Buffer
           </p>
+          <br />
           <p className="p-project-techstack">Built in React</p>
           <div className="project-icons">
             <OndemandVideoIcon
@@ -106,9 +108,10 @@ const Projects2 = () => {
             // className="image-project"
           />
           <p className="p-project-description">
-            My first website built for my wife's business using no-code tools
-            before I knew how to code 🙂
+            My first website built using no-code tools before I knew how to code
+            🙂
           </p>
+          <br />
           <p className="p-project-techstack">
             Built using{" "}
             <a
@@ -121,24 +124,11 @@ const Projects2 = () => {
             </a>
           </p>
           <div className="project-icons">
-            <OndemandVideoIcon
+            <LanguageIcon
               fontSize="large"
               className="logo"
               onClick={(e) => {
-                window.open(
-                  "https://www.linkedin.com/posts/gary-shaw-a9b35514_the-last-time-i-posted-on-here-i-was-just-activity-7017876956545208320-chqD?utm_source=share&utm_medium=member_desktop",
-                  "_blank"
-                );
-              }}
-            />
-            <GitHubIcon
-              fontSize="large"
-              className="logo"
-              onClick={(e) => {
-                window.open(
-                  "https://github.com/g4ry5haw/FE-barbershop-booking",
-                  "_blank"
-                );
+                window.open("https://aspirelanguages.com", "_blank");
               }}
             />
           </div>
@@ -148,4 +138,4 @@ const Projects2 = () => {
   );
 };
 
-export default Projects2;
+export default Projects;
