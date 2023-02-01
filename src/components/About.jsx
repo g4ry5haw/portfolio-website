@@ -42,11 +42,7 @@ const About = () => {
               themselves.
               <br />
               <br />
-              Feel free to get in touch using the{" "}
-              <a href="#links" className="link">
-                links
-              </a>{" "}
-              below.
+              Feel free to get in touch using the links below.
             </p>
           </div>
         </div>

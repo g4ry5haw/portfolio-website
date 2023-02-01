@@ -6,7 +6,7 @@ const Skills = () => {
       <h2 className="sectionTitle" id="skills">
         Skills
       </h2>
-      <div className="even-columns-grid">
+      <div className="grid-outer">
         <div className="col">
           <div className="col-box">
             <h3 className="col-title">Front end</h3>
