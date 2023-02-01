@@ -81,6 +81,10 @@ col > .icon {
   text-align: left;
 }
 
+.col-text-left p {
+  font-size: 1.25rem;
+}
+
 .col-box {
   border: 1px solid #F4EFDC;
   margin: 0.5em;

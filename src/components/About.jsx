@@ -42,7 +42,8 @@ const About = () => {
               themselves.
               <br />
               <br />
-              Feel free to get in touch using the links below.
+              Feel free to get in touch using the links at the bottom of the
+              page.
             </p>
           </div>
         </div>
