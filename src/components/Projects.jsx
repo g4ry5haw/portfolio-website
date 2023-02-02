@@ -28,17 +28,15 @@ const Projects = () => {
           </p>
           <br />
           <p className="p-project-techstack">
-            Front-end is built in React Native & Back-end is built in MongoDB
+            Front-end is built in React Native & Back-end is built in MongoDB.
+            REST API's were created using Express.
           </p>
           <div className="project-icons">
             <OndemandVideoIcon
               fontSize="large"
               className="logo"
               onClick={(e) => {
-                window.open(
-                  "https://www.linkedin.com/posts/gary-shaw-a9b35514_the-last-time-i-posted-on-here-i-was-just-activity-7017876956545208320-chqD?utm_source=share&utm_medium=member_desktop",
-                  "_blank"
-                );
+                window.open("https://youtube.com/shorts/VMrwm9RRqfY", "_blank");
               }}
             />
             <GitHubIcon
@@ -71,10 +69,7 @@ const Projects = () => {
               fontSize="large"
               className="logo"
               onClick={(e) => {
-                window.open(
-                  "https://www.linkedin.com/posts/gary-shaw-a9b35514_i-made-my-first-product-for-a-paying-customer-activity-7021061733884534785-GB7V?utm_source=share&utm_medium=member_desktop",
-                  "_blank"
-                );
+                window.open("https://youtu.be/5Ucv4xjZV58", "_blank");
               }}
             />
             <GitHubIcon
